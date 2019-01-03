@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no,email=no"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<link rel="stylesheet" href="css/index.css" >
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" >
+		<link rel="stylesheet" href="css/style.css" >
+		<script src="js/imageflow.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<title>鹿门山</title>
+		<script>
+		$(function(){
+			var win_tmp=(parseInt($(window).width())-parseInt($('#index').width()))/2;
+			var win_x = $(window).width()/1920;
+			var win_y = ($(window).height()-890)/2;
+			win_x=win_x==1?1:win_x-0.025;
+			//console.log(x);
+			$('.main').css({'transform':'scale('+win_x+')','marginLeft':win_tmp+'px','marginTop':win_y});
+			$('.zy-Slide').zySlide({ speed: 500 }).css('border', '0px solid blue')
+	
+		})
+		</script>
+	</head>
+	<body>
+		<div class="main" id="index">
+			<div class="mainLeft">
+				<div id="myCarousel" class="carousel slide leftIMG" data-ride="carousel" data-interval="7000">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>   
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/cc.jpg">
+						</div>
+						<div class="item">
+							<img src="images/cc2.jpg">
+						</div>
+						<div class="item">
+							<img src="images/cc3.jpg">
+						</div>
+						<div class="item">
+							<img src="images/cc4.jpg">
+						</div>
+					</div>
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="mainRight">
+				<ul class="navUl">
+					<li data-url="introduce"><a>景区介绍</a></li>
+					<li data-url="route"><a>导览路线</a></li>
+					<li class="mp4"><a>景区多媒体</a></li>
+					<li data-url="guide"><a>导游服务</a></li>
+					<li data-url="matching"><a>配套服务</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main" id="introduce"><!--景区介绍-->
+			<article class="art1 clearfix">
+				<div class="artImg">
+					<img src="images/img1.png" />
+				</div>
+				<div class="artInfo">
+					<h1>八阵石林</h1>
+					<p>“八阵石林”是鹿门山苏岭石中的一片，苏岭石属于远古石灰岩地质结构遗存，有5--6亿年的历史，面积约1万平方米。而“八阵石林”又是苏岭石中的一块小缩影，这里的山石因为地质原因造型独特、千变万化，有的像龙脊，有的像鳄鱼，有的像骆驼，而这些怪石相互勾连、争峰斗角又在此处形成了一个深潭。相传当年庞德公亲身传授诸葛孔明的“八阵图”即是在此处教习的。</p>
+					<p>2009年以前，这些山石大部分还被泥土和植被埋于地下或浅露真容，后来经过艰苦的、大量的人工挖掘和清理，展现在旅客眼前的这1万多方正是唐宋八大家曾巩笔下描述的大名鼎鼎的苏岭石。苏岭石无论是从景观价值方面来讲，这样的冠盖石林密度之大全国都属罕见；从人文价值方面来讲，苏岭石在中国石文化界也是非常著名的，可与太湖石相提并论。</p>
+				</div>
+			</article>
+			<article class="art2 clearfix">
+				<div class="artImg">
+					<img src="images/img2.png" />
+				</div>
+				<div class="artInfo">
+					<h1>拜师堂</h1>
+					<p>从鹿门寺庙往南约90米，沿着迂回曲折的石条小径，折向鹿门山拾级而上，一座精致雅堂掩映在苍松翠柏中，这就是诸葛亮拜师堂。是诸葛亮出山入仕前，师拜庞德公的纪念性建筑。此堂建于1994年，取唐代民居建筑风格，为木架砖瓦结构，一门两窗，三间共一堂。
+							《后汉书》记载，诸葛亮以老师之礼节对待庞德公，每次来访，“独拜于榻下”，德公初不令止，可见诸葛亮对师尊的崇拜之心。诸葛亮和侄儿庞统的“卧龙、凤雏”之名，就是庞德公在这里授立的。长年的教习，极大地丰富了诸葛亮治国安邦的智慧，最终孕育出了著名的“隆中对”。</p>
+				</div>
+			</article>
+			<article class="art3 clearfix">
+				<div class="artImg">
+					<img src="images/img3.png" />
+				</div>
+				<div class="artInfo">
+					<h1>碧水深潭</h1>
+					<p>碧水深潭，当地依然还有居民称之为荷花潭。此潭位于鹿门山中部地段山坳中。因唐朝孟浩然经常在此荷塘划船采莲而得名，荷花涟漪，碧波小船，每到仲夏季节，映日荷花别样红。</p>
+					<p>在唐朝时期，这里地势低洼，潭水清澈透底，水质甘甜。山崖上也时常有菊花飘落于水中，荷花开过，菊花影映，风景秀丽。后来由于地质运动，这里潭水干涸变成了一片荒草荒林之地，大家现在看到的深潭景色，是鹿门旅游公司进驻开发以来，在原址的基础上重新复原修建的，建成之后可重现当年孟浩然荷花潭采莲赋诗的情形，潭中有亭，亭外有荷，荷中有桥，意趣盎然。</p>
+				</div>
+			</article>
+			<article class="art4 clearfix">
+				<div class="artImg">
+					<img src="images/img4.png" />
+				</div>
+				<div class="artInfo">
+					<h1>春晓阁</h1>
+					<p>是“浩然诗院”的入门处，于2010年重新修缮而来，整个阁楼造型属于明清建筑风格，由城门和古长廊共同组成。“春晓阁”三个字为宋代襄阳著名书法家米芾所书，春晓阁的命名正是由孟浩然最为家喻户晓的《春晓》诗而来，即“春眠不觉晓，处处闻啼鸟，夜来风雨声，花落知多少”。</p>
+				</div>
+			</article>
+			<article class="art5 clearfix">
+				<div class="artImg">
+					<img src="images/img5.png" />
+				</div>
+				<div class="artInfo">
+					<h1>浩然诗院</h1>
+					<p>据《旧唐书》记载，孟浩然，隐鹿门山，以诗自适。年四十来游京师，应进士不第，还襄阳。</p>
+					<p>浩然诗院是为纪念唐代诗人、中国杰出文学家孟浩然在原有建筑遗迹的基础上修缮、扩建而来。浩然诗院为唐代诗人孟浩然的隐幽之所，庭院共分为三大部分：春晓阁、孟园、紫微殿。李白、白居易、苏东坡等文学大家也曾都为这里吟诗作对，历代古人对孟浩然的无比崇敬之情由此可以窥见一斑。</p>
+				</div>
+			</article>
+			<article class="art6 clearfix">
+				<div class="artImg">
+					<img src="images/img6.png" />
+				</div>
+				<div class="artInfo">
+					<h1>花溪蝶谷</h1>
+					<p>竹林与花海的交界处，小桥空谷，流水潺潺，鸟鸣风清，旷谷禅鸣。竹林的背后，是一片花的世界、蝶的天堂。樱花园、桃花林、薰衣草地、菊花池，尽有尽有。在花海的南面是美丽别致的竹楼，这里的竹楼从造型参考了傣族阑式建筑风格的多层高脚造型，高脚是为了防止地面的潮气。</p>
+					<p>花海、竹楼、溪谷三者的相映成趣，营造了“芦笙声声响起、月影波光荡漾、情歌牵牵对唱”的美丽意境，使人流连忘返。</p>
+				</div>
+			</article>
+			<article class="art7 clearfix">
+				<div class="artImg">
+					<img src="images/img7.png" />
+				</div>
+				<div class="artInfo">
+					<h1>鹿门牌坊</h1>
+					<p>鹿门牌坊，门洞式纪念性建筑物，属典型的汉族特色文化建筑，于1992年复建。采用的是硬山式三牌楼建筑，牌坊上书“鹿门山”，牌坊三拱门上刻有“风流天下”、“鸿鹄高林”、“鹿门隐书”等字样，分别指曾在鹿门山隐居的孟浩然、庞德公、皮日休等古代名人。鹿门山旅游有限公司在征集专家的建议后对牌楼进行了扩建，实现了整体视觉的抬高和改进，使得鹿门山牌坊更加巍峨挺拔。而鹿门山牌坊广场的地面全部使用山中的苏岭石打磨铺装，广场前端的五块大石头分别象征着鹿门风景区的五座大山（李家山、鹿门山、霸王山、香炉山、狮子山）</p>
+				</div>
+			</article>
+			<article class="art8 clearfix">
+				<div class="artImg">
+					<img src="images/img8.png" />
+				</div>
+				<div class="artInfo">
+					<h1>三友亭</h1>
+					<p>在孟园的左面山坡上，由四角亭，榭亭、六角亭、长廊等四个部分统称为“三友亭”，这三个亭既是中国古建的代表，也喻示着岁寒三友的松竹梅精神，也隐喻着孟浩然、王维、张九龄三个老友之间真挚的友谊。有对联曰：移居必近松梅竹，择友唯求直谅闻。</p>
+					<p>三友亭最大的景观是仿古长廊。这座全实木包装的仿古长廊是按照传统的纯手工艺打造，并采用了大量具有悠久历史年代的古老构件组合而成。长廊的建筑意境悠远，不仅是一览孟园的最佳地点，更是充分地体验孟浩然当年静心明志、吟诗品茗的好去处。</p>
+				</div>
+			</article>
+			<article class="art9 clearfix">
+				<div class="artImg">
+					<img src="images/img9.png" />
+				</div>
+				<div class="artInfo">
+					<h1>苏岭诗径</h1>
+					<p>苏岭诗径是根据鹿门山的资源特点，为突出历史文化名人孟浩然的文化成就与影响力，将鹿门山自然山水、人造景点与诗词文化相结合，打造出的多功能的综合型景点。</p>
+					<p>苏岭诗径第一大特点，是将孟氏田园诗中的意境融入石阵，游客满眼尽享文化精华的视野，条条小径旁的石刻和摩崖，雕刻了历代文人墨客的诗作，游人在游玩的同时，既能体验到浓厚的“诗与石”融汇的意境，还能领悟出诗词与现实景点融合的意趣。</p>
+					<p>苏岭诗径的第二大特点，是无论在山中的平视角近景，还是在高处的狭石道、木栈道的瞰视角广景，游人都可以欣赏到诗林之漫妙、奇石之嶙峋的视觉盛宴，其中所饱含着浓浓的文化韵味，有着激发游客无限想象与思索之意境。</p>
+				</div>
+			</article>
+			<article class="art10 clearfix">
+				<div class="artImg">
+					<img src="images/img10.png" />
+				</div>
+				<div class="artInfo">
+					<h1>望江云阁</h1>
+					<p>“望江亭上望江流，天际飘来一带收。翠葆青峦笼羽彩，斜风细雨幻烟楼”，这是表达望江云阁特征的一款著名诗句。望江亭位于鹿门山顶峰，亭高21米，四柱四角三层，内置旋转楼梯，拾级而上，伫立亭上，西看汉水蜿蜒东去，北望襄阳古城若隐若现，南瞰群山绿树婆娑，东望山川田野生机盎然，一派风光秀美而又充满禅意的山水田园风光。</p>
+				</div>
+			</article>
+			<article class="art11 clearfix">
+				<div class="artImg">
+					<img src="images/img11.png" />
+				</div>
+				<div class="artInfo">
+					<h1>竹林禅境</h1>
+					<p>竹林禅境，是鹿门山风景区里最成型、面积最大的一片竹林王国。古人云：“宁可食无肉不可居无竹”，相传这里很久远的时候就是一片竹林，而孟浩然自少就爱植竹，对这一片竹林呵护有加、很是喜爱。或许这里生来就是竹子福地，无论历史如何洗刷与沉浮，竹子的生命历经了无数道生死轮回，这片竹林依然翠绿挺拔，永葆颜值。竹林禅境里的竹树高大纯朴、清丽脱俗、清幽雅致、自然天成，能带给长期生活于喧嚣都市的现代人以超凡脱俗般的清新享受。</p>
+				</div>
+			</article>
+			<ul class="artBtnUl">
+				<li class="prev"></li>
+				<li class="next"></li>
+				<li class="back"></li>
+			</ul>
+		</div>
+		<div class="main" id="route"><!--导览线路-->
+			<div class="map">
+				<a class="back"></a>
+			</div>
+		</div>
+		<div class="main" id="guide"><!--导游服务-->
+			<div class="guide">
+				<div id="LoopDiv">
+					<input id="S_Num" type="hidden" value="8" />
+					<div id="starsIF" class="imageflow">
+						<img src="images/dy1.png" longdesc="http://www.baidu.com" />
+						<img src="images/dy2.png" longdesc="#" />
+						<img src="images/dy3.png" longdesc="#" />
+						<img src="images/dy4.png" longdesc="#" />
+						<img src="images/dy5.png" longdesc="#" />
+						<img src="images/dy6.png" longdesc="#" />
+						<img src="images/dy7.png" longdesc="#" />
+						<img src="images/dy8.png" longdesc="#" />
+						<img src="images/dy9.png" longdesc="#" />
+						<img src="images/dy10.png" longdesc="#" />
+					</div>
+				</div>
+			</div>
+			<a class="back"></a>
+		</div>
+		<div class="main" id="matching"><!--配套服务-->
+			<ul class="matchingUl clearfix">
+				<li data-jump="shopping" class="active">购物</li>
+				<li data-jump="travel">交通</li>
+				<li data-jump="food">美食</li>
+				<li data-jump="game">娱乐</li>
+				<li data-jump="live">住宿</li>
+				<li data-jump="contact">联系</li>
+			</ul>
+			<a class="back"></a>
+			<div class="shopping"><!--空-->
+
+			</div>
+			<div class="travel">
+				<p>乘车路线：从襄阳出发，坐车至火车东站（市内有23路，24路，310路，311路，541路，55路，56路，57路，58路，601路，75路，9路公交线路）。从火车东站(坐52路到达)直达景区，该站每日有发往时间分别为早上6：00东站发出，一小时一班晚上18：00景区发车，景区票价27元/人。</p>
+				<p>自驾车路线：经过东津大桥，下桥右拐进入东津镇9公里。</p>
+			</div>
+			<div class="food">
+				<p>“竹林酒家”，座落于竹林禅境内一座清丽雅致的竹楼中，建筑面积600平方米，其以中式布局红木圆桌8桌，实木方桌6桌，能同时容纳80-100人进餐。酒楼以“传统文化”为主题，以“安徽菜品”为主打，适合于旅游快餐、家庭聚餐、生日喜宴及商务宴请，是以经营中式餐饮为主的公司自营餐厅。</p>
+				<p>外部环境优美、内部环境典雅，坐在竹楼高处用餐、品酒，眼观室外，“花海、竹楼、溪谷”三者的相映成趣，有一种“芦笙声声响起、月影波光荡漾、情歌牵牵对唱”的美丽意境，使人心旷神怡。</p>
+				<p>菜品以安徽特色菜品为主，辅以襄阳地方特色菜系精萃，同时融合农家山村野菜等美食精髓，形成了鹿门山独具个性化的菜品体系。</p>
+				<p>“竹林酒家”将充分利用鹿门山深厚历史文化底蕴与优美的自然环境景观，以个性化的优质服务、精致可口的菜系菜肴、严格细致的团队管理，使每一位客户满意。</p>
+				<p></p>
+			</div>
+			<div class="game"><!--空-->
+				
+			</div>
+			<div class="live"><!--空-->
+
+			</div>
+			<div class="contact">
+				
+			</div>
+		</div>
+		<div class="mp4Player"></div>
+	</body>
+</html>

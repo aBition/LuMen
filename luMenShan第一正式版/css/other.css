@@ -1,0 +1,55 @@
+.sm_nav{float: left;}
+.login{background: #333; font-weight:normal; height: 40px;line-height:40px; }
+.login ul{width: 1200px; margin: 0 auto; overflow: hidden;}
+.login ul li{ float: left;}
+.login ul span{ float: left;color:#666; margin: 0px 8px; display: block;}
+.login ul li a{ font-size:12px; color:#bbb; }
+.login ul li a:hover{color: #09f;}
+.sm_nav{float: left;}
+.login ul li a {
+    font-size: 12px;
+    color: #bbb;
+}
+.user {
+    float: right;
+    margin-right: 20px;
+}
+.user h1 {
+    float: left;
+    font-weight: normal;
+    color: #bbb;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 80px;
+    padding: 0px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.user h1 span {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: none;
+    border-radius: 50px;
+    margin: 0px 5px;
+    margin-top: 10px;
+}
+.top_user_nl {
+    position: absolute;
+    width: 100px;
+    background: #fff;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.2);
+    position: absolute;
+    margin-left: -10px;
+}
+.top_user_nl {
+    display: none;
+}
+.login .top_user_nl li {
+    float: none;
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}

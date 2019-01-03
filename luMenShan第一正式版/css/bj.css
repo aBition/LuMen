@@ -1,0 +1,763 @@
+@charset "utf-8"; 
+/* DIVCSS5 - www.divcss5.com */ 
+body, div,iframe, ul, ol, dl, dt, dd, li, dl, 
+h1, h2, h3, h4, table,th, td, input, button, select,
+ textarea {margin:0; padding:0;font-style: normal; }
+/* \5B8B\4F53 宋体 更多中文字体
+转换Unicode编码表网址 http://www.divcss5.com/jiqiao/j325.shtml */ 
+ol, ul ,li{list-style: none;} 
+img {border: 0; vertical-align:middle;} 
+body{color:#000000;background:#FFF; } 
+.clear{clear:both;height:1px;width:100%;
+ overflow:hidden; margin-top:-1px;} 
+a{color:#000000;text-decoration:none; }  
+body a:hover,body a:focus{
+	text-decoration:none;
+}
+
+
+ 
+.cbp-fwslider h2,.cbp-fwslider .h2{ font-size:16px;}
+.travel_name dl{ margin-bottom: 0px;}
+.red ,.red a{ color:#F00;} 
+.blue ,.blue a{ color:#1E51A2;} 
+ 
+.lf{float:left;} 
+.rt{float:right;} 
+ 
+.pt5{padding-top:5px;} 
+.pb5{padding-bottom:5px;} 
+ 
+#header ,#main ,#footer{ margin:0 auto;
+ width:980px; overflow:hidden} 
+ 
+#main_left{ float:left;} 
+#main_right{ float:right;} 
+
+
+.top{
+	width: 100%;
+	background: #333;
+	height: 32px;
+	overflow: hidden;
+}
+.top dt{
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+	color: #BBB;
+}
+.top dd{
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+	color: #BBB;
+}
+#top_r{
+	float: right;
+	margin-right: 10px;
+	margin-top: 6px;
+}
+.dh{
+	width: 100%;
+	overflow: hidden;
+	margin: 8px 0px;
+}
+.dh dt{
+	float: left;
+	margin-left: 10px;
+
+}
+.dh dd{
+	float: right;
+	margin-right: 10px;
+	color: #BBB;
+}
+
+.bt{
+	width: 90%;
+	padding:20px 5% 10px 5%;
+	background: #ffffff;
+	
+}
+.bt h1{
+	font-size: 16px;
+	color: #444;
+	font-weight: normal;
+	margin-bottom: 8px;
+	height: 42px;
+	overflow: hidden;
+}
+.bt h2{
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+}
+.user{
+	width: 90%;
+	padding:0px 5% 10px 5%;
+	background: #ffffff;
+	overflow: hidden;
+}
+.user_nl{
+	float: left;
+}
+.user dl{
+	overflow: hidden;
+}
+.user dl dt{
+	float: left;
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+.user dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.user dl dd{
+	float: left;
+	margin-left:10px;
+	width: 90px;
+	height: 22px;
+	font-size: 14px;
+	line-height: 22px;
+	overflow: hidden;
+}
+.user_nl2{
+	float: right;
+	line-height: 25px;
+	text-align: right;
+	color: #999;
+}
+/*首页轮播内容*/
+button {
+	color: #000;
+	padding: 7px 40px 10px 40px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	background: none;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 8px;
+	border-bottom-width: 2px;
+}
+
+button:hover {
+	color: #308bbb;
+	border-color: #308bbb;
+}
+
+.kiss-pagination button {
+	padding: 10px;
+}
+
+.containerIMG {
+	max-width: 86%;
+	width: auto;
+	padding: 4%;
+	border: 1px solid #ddd;
+	background: #fff;
+	box-shadow: 0 0 0.3em #ddd;
+	margin: 0 auto;
+	margin-top: 0px;
+}
+
+.kiss-slider {
+	margin: 0px auto;
+}
+
+.kiss-slider li img {
+	width: 100%;
+}
+
+#example2 .kiss-pagination {}
+
+#example2 .kiss-pagination .current {}
+
+.text-center {
+	text-align: center;
+}
+
+.des h1 img {
+	width: 100%;
+}
+
+.des h2 {
+	padding-bottom: 10px;
+	width: 100%;
+	font-size: 18px;
+	height: 34px;
+	overflow: hidden;
+}
+
+.des dl {
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.des dl dt {
+	width: 15%;
+	float: left;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.des dl dt img {
+	width: 100%;
+}
+
+.des dl dd {
+	width: 80%;
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.des dl dd p {
+	font-size: 12px;
+	font-weight: normal;
+	color: #888;
+}
+/*详情页*/
+.content{
+	width: 90%;
+	padding:5%  5%;
+	background: #ffffff;
+	overflow: hidden;
+	margin-top: 20px;
+	color: #888;
+	line-height: 30px;
+}
+.content img{
+	width: 100%;
+	margin: 5px 0px;
+}
+.comment{
+	width: 90%;
+	padding:5%  5%;
+	background: #ffffff;
+	overflow: hidden;
+	margin-top: 20px;
+	color: #888;
+
+}
+.comment .nl{
+	margin-bottom: 10px;
+	border-bottom:1px solid #eee;
+	padding-bottom: 10px;
+}
+.comment .nl dl{
+	overflow: hidden;
+}
+.comment .nl dl dt{
+	width: 10%;
+	height: 10%;
+	border-radius: 50px;
+	float: left;
+	overflow: hidden;
+}
+.comment .nl dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.comment .nl dl dd{
+	width: 88%;
+	float: right;
+}
+.comment .nl dl dd h1{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+.comment .nl dl dd h1 span{
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	margin-left: 5px;
+}
+.comment .nl dl dd h2{
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+	margin-top: 3px;
+	font-weight: normal;
+}
+
+.comment .nl2{
+	text-align: center;
+	color: #ccc;
+	font-size: 16px;
+	line-height: 40px;
+}
+.foot{
+	width: 100%;
+	background: #333;
+	height: 50px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+}
+.comment .pl{
+	margin-bottom: 20px;
+}
+.comment .pl dl{
+	overflow: hidden;
+}
+.comment .pl dt{
+	float: left;
+	width: 70%;
+}
+.comment .pl dt textarea{
+	width: 100%;
+	min-height: 40px;
+	line-height: 20px;
+	border: 1px dashed #ddd;
+	background: #f5f5f5;
+	padding: 5px;
+}
+.comment .pl dd{
+	float: right;
+	width: 20%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #09f;
+	color: #fff;
+}
+/*热门创意*/
+.demand{
+	padding-top: 20px;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+}
+.demand_bt{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.demand_nl{
+	float: left;
+	width: 45%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0px 1% 0px 2.5%;
+	margin-bottom: 20px;
+}
+
+.demand_nl h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+	color: #ca4341;
+	line-height: 35px;
+}
+.demand_nl h2{
+	margin: 0 auto;
+	width: 40px;
+	height: 2px;
+	background: #ca4341;
+	margin-bottom: 10px;
+}
+.demand_nl li{
+	height: 120px;
+	padding: 4%;
+	overflow: hidden;
+	color: #888;
+	line-height: 20px;
+}
+.demand_user{
+	overflow: hidden;
+	padding: 4%;
+	background: #ca4341;
+}
+.demand_img{
+	float: left;
+	width: 20%;
+	height: auto;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.demand_img img{
+	width: 100%;
+}
+.demand_id{
+	float: right;
+	width: 75%;
+	
+}
+.demand_id dl dt{
+	color: #fff;
+	margin-bottom: 4px;
+}
+.demand_id dl dd span{
+	float: right;
+	margin-left: 10px;
+}
+#gc{
+	background: url(../img/ico_eye.png) no-repeat 0px 2px;
+	padding-left: 20px;
+	color: #fff;
+}
+#gc2{
+	background: url(../img/ico_eye.png) no-repeat 0px 4px;
+	padding-left: 20px;
+	float: right;
+	margin-right: 5px;
+	color: #fff;
+}
+#zan{
+	background: url(../img/ico_zan.png) no-repeat 0px 1px;
+	background-size: 45%;
+	padding-left: 15px;
+	color: #fff;
+}
+#zan2{
+	background: url(../img/ico_zan.png) no-repeat 0px 1px;
+	background-size: 38%;
+	float: right;
+	margin-right: 5px;
+	padding-left: 15px;
+	color: #fff;
+}
+
+/*设计师*/
+.design{
+	background: #333;
+	padding: 3%;
+	overflow: hidden;
+}
+.design_bt{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.design_bt p{
+	font-size: 12px;
+	color: #bbb;
+	line-height: 30px;
+}
+.design_nl{
+	float: left;
+	width: 45%;
+	overflow: hidden;
+	margin: 0px 1% 0px 2.5%;
+	margin-bottom: 20px;
+	background: #fff;
+	text-align: center;
+}
+.design_nl h1 img{
+	width: 100%;
+}
+.design_nl h2{
+	font-size: 16px;
+	font-weight: normal;
+	margin: 5px auto;
+}
+.design_nl h3{
+	width: 20%;
+	height: 2px;
+	background: #000;
+	margin: 0 auto;
+}
+.design_nl li{
+	line-height: 30px;
+	color: #666;
+}
+
+/*旅游*/
+.travel{
+	padding-top: 20px;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+}
+.travel_bt{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.travel_nl{
+	width: 86%;
+	margin: 0 auto;
+	max-width: 330px;
+	min-width: 330px;
+	margin-bottom: 20px;
+}
+.travel_nl h1{
+	width: 100%;
+	z-index: -1;
+}
+.travel_nl h1 img{
+	width: 100%;
+	height: auto;
+	z-index: -1;
+}
+.travel_user{
+	margin-top: -59px;
+	overflow: hidden;
+	z-index: 99999;
+	position: relative;
+	display: block;
+	/* padding: 5px 0px; */
+	background: rgba(0,0,0,0.5);
+}
+.travel_img{
+	float: left;
+	width: 15%;
+	margin-left: 2%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.travel_img img{
+	width: 100%;
+	height: auto;
+}
+.travel_name{
+	float: left;
+	width: 75%;
+	margin-left: 5%;
+	color: #fff;
+}
+.travel_name dl dt{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.travel_name dl dd{
+	font-size: 12px;
+}
+
+/*APP*/
+.app{
+	background: #f5f5f5;
+	padding: 4%;
+	overflow: hidden;
+}
+.app dl dt{
+	border-radius: 5px;
+	overflow: hidden;
+	float: left;
+	width: 33%;
+	font-size: 14px;
+	color: #fff;
+	background: url(../img/ico_iso.png) 15px 9px no-repeat #14b951;
+	padding-left: 15%;
+	line-height: 50px;
+	height: 50px;
+}
+.app dl dd{
+	border-radius: 5px;
+	overflow: hidden;
+	float: right;
+	width: 33%;
+	font-size: 14px;
+	color: #fff;
+	background: url(../img/ico_and.png) 15px 9px no-repeat #14b951;
+	padding-left: 15%;
+	line-height: 50px;
+	height: 50px;
+}
+
+/*版权*/
+.bq{
+	width: 100%;
+	line-height: 50px;
+	background: #333333;
+	text-align: center;
+	color: #fff;
+}
+
+
+.cbp-fwslider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.cbp-fwslider ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+
+	outline: none;
+}
+
+.cbp-fwslider ul li > a img {
+	border: none;
+	margin: 0 auto;
+	max-width: 75%;
+}
+
+.cbp-fwslider nav span {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 100px;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -50px;
+	line-height: 100px;
+	cursor: pointer;
+	font-family:"宋体";
+	font-weight: normal;
+}
+
+.cbp-fwslider nav span:hover {
+	background: #378fc3;
+}
+
+.cbp-fwslider nav span.cbp-fwnext {
+	right: 0px;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+	left: 0px;
+}
+.cbp-fwslider h1 img{
+	min-width: 270px;
+	min-height: 350px;
+	max-width: 270px;
+	max-height: 350px;
+}
+.cbp-fwslider h2{
+	margin:0 auto ;
+	width: 270px;
+	font-weight: normal;
+	background: #FFFFFF;
+	padding-bottom: 20px;
+	line-height: 35px;
+}
+.cbp-fwslider h3{
+	margin:0 auto ;
+	width: 40px;
+	height: 2px;
+	margin-top: -20px;
+	background: #333;
+}
+.cbp-fwslider p{
+	margin:0 auto ;
+	width: 270px;
+	line-height: 30px;
+	color: #666;
+	background: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
